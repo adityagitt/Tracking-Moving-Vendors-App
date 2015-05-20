@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <include
+        android:id="@+id/include1"
+        layout="@layout/actionbar_layout" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/include1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="112dp"
+        android:text="Enter Your Income"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#4863A0"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/myIncome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:inputType="numberDecimal" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/btn_income"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/myIncome"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp"
+        android:background="#4863A0"
+        android:text="Ok"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+</RelativeLayout>

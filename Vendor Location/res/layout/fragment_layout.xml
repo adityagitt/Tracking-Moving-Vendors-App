@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1" >
+
+    <!-- savings Button -->
+
+
+    <!-- history Button -->
+
+
+    <!-- manage Button -->
+
+
+    <!-- expense Button -->
+
+    <Button
+        android:id="@+id/btn_manage"
+        style="@style/DashboardButton"
+        android:layout_alignBaseline="@+id/btn_history"
+        android:layout_alignBottom="@+id/btn_history"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="36dp"
+        android:drawableTop="@drawable/btn_manage"
+        android:text="Manage Fields" />
+
+    <Button
+        android:id="@+id/btn_history"
+        style="@style/DashboardButton"
+        android:layout_alignLeft="@+id/btn_savings"
+        android:layout_below="@+id/btn_savings"
+        android:layout_marginTop="49dp"
+        android:drawableTop="@drawable/btn_history"
+        android:text="History" />
+
+    <Button
+        android:id="@+id/btn_savings"
+        style="@style/DashboardButton"
+        android:layout_alignBaseline="@+id/btn_expense"
+        android:layout_alignBottom="@+id/btn_expense"
+        android:layout_marginRight="38dp"
+        android:layout_toLeftOf="@+id/btn_manage"
+        android:drawableTop="@drawable/btn_saving"
+        android:text="My Savings" />
+
+    <Button
+        android:id="@+id/btn_expense"
+        style="@style/DashboardButton"
+        android:layout_alignLeft="@+id/btn_manage"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="162dp"
+        android:drawableTop="@drawable/btn_expense"
+        android:text="My Expenses" />
+
+</RelativeLayout>

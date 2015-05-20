@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.locationfindreapp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="16" />
+    <!-- Internet Permissions -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- Network State Permissions -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!-- Access Location -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.locationfindreapp.Spleshscreen"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.locationfindreapp.Options"
+            android:label="@string/title_activity_options" >
+        </activity>
+        <activity
+            android:name="com.example.locationfindreapp.RegistrationActivity"
+            android:label="@string/title_activity_options" >
+        </activity>
+        <activity
+            android:name="com.example.locationfindreapp.BuyerDataListActivity"
+            android:label="@string/title_activity_buyer_data_list" >
+        </activity>
+        <activity
+            android:name="com.example.locationfindreapp.BuyerMapActivity"
+            android:label="@string/title_activity_buyer_data_list" >
+        </activity>
+        <!-- SinglePlaceActivity -->
+        <activity
+            android:name="com.example.locationfindreapp.SinglePlaceActivity"
+            android:label="Place Details" >
+        </activity>
+
+        <!-- PlacesMapActivity -->
+        <activity
+            android:name="com.example.locationfindreapp.PlacesMapActivity"
+            android:label="Near Places Map View" >
+        </activity>
+    </application>
+
+</manifest>

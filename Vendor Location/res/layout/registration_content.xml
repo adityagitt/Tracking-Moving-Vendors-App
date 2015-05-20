@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+	
+   <!-- Full Name Label -->
+            <!-- Email Label -->
+            <!-- Password Label -->
+            
+            <!-- Phn No Label -->
+            
+            <!-- Add Label -->
+             
+             <!-- City Label-->
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:text="Name"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/edname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/txtEmail"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:text="Email" 
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/edEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/txtPassword"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:text="Password" 
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/edPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/txtPhNumber"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:text="PhoneNo"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/edPhNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/txtId"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:text="Id" 
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/edId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/txtAdd"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:text="Address" 
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/edAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text" />
+    
+      <TextView
+        android:id="@+id/txtCity"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:text="City" 
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/edCity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text" />
+    
+    
+</LinearLayout>
